@@ -3,12 +3,12 @@ import 'firebase/storage';
 import 'firebase/firestore';
 
 var firebaseConfig = {
-  apiKey: "AIzaSyBuaweti6kitUuPBSfkwyxKWLY26EpgsH8",
-  authDomain: "firegram-1105d.firebaseapp.com",
+  apiKey: process.env.REACT_APP_FIREBASE_API_KEY,
+  authDomain: process.env.REACT_APP_FIREBASE_AUTH_DOMAIN,
   projectId: "firegram-1105d",
   storageBucket: "firegram-1105d.appspot.com",
   messagingSenderId: "316124732071",
-  appId: "1:316124732071:web:afc7913741d4a4bc9a9982",
+  appId: process.env.REACT_APP_FIREBASE_API_ID,
 };
 // Initialize Firebase
 firebase.initializeApp(firebaseConfig);
