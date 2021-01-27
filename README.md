@@ -1,8 +1,7 @@
+# FireGram application
+This project is based on ReactJS. This project demonstrates how to upload and fetch images from Firebase,
+
 # Getting Started with Create React App
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
 
 In the project directory, you can run:
 
